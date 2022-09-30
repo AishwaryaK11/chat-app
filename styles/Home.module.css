@@ -1,0 +1,144 @@
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #fff;
+    background-color: var(--slack-color);
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.time__icon {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.header__title {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logout__btn {
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--slack-color);
+    border-top: 1px solid #49274b;
+    color: #fff;
+    flex: 0.5;
+    max-width: 260px;
+    padding-bottom: 50px;
+}
+
+.sidebar__header {
+    display: flex;
+    border-bottom: 1px solid #49274b;
+    padding-bottom: 10px;
+    padding: 13px;
+}
+
+.sidebar__info {
+    flex: 1;
+}
+
+.sidebar__serverName {
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.sidebar__name {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.fiberManualRecord__icon {
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 2px;
+    color: green;
+}
+
+.user__name {
+    margin-top: 2px;
+}
+
+/* Sidebar Option */
+
+.sidebarOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarOption {
+    font-size: 12px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.sidebarOption:hover {
+    opacity: 0.9;
+    background-color: #340e36;
+}
+
+.sidebarOption__channel {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    padding: 4px 0;
+}
+
+.sidebarOption__title {
+    font-weight: 500;
+}
+
+.sidebarOption__icon {
+    font-size: 15px !important;
+}
+
+.sidebarOption__hash {
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.sidebarOption__hr {
+    border: 1px solid #49274b;
+}
+
+/* index page */
+.index__heading {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.index__welcomeHeading {
+    text-align: center;
+    height: fit-content;
+}
