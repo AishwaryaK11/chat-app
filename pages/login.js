@@ -18,7 +18,7 @@ const Login = () => {
                     />
                 </div>
                 <h1>Sign in to Dilack</h1>
-                <p>www.github.com/shmiitg</p>
+                <p>www.github.com/AishwaryaK11</p>
                 <Button onClick={login} className={styles.signin__button}>
                     Sign in with Google
                 </Button>
